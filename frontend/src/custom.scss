@@ -1,0 +1,27 @@
+@import "bootstrap/scss/functions"; 
+@import "bootstrap/scss/variables";
+@import "bootstrap/scss/mixins";
+
+$bs-body-font-family: 'Poppins', sans-serif;
+
+$primary: rgb(6, 143, 255);
+$secondary: rgb(175, 64, 138);
+$success: rgb(0, 183, 255);
+$info: rgb(164, 100, 190);
+$warning: rgb(238, 255, 0);
+$danger: rgb(255, 43, 43);
+$light: #fff;
+$dark: rgb(17, 24, 37);
+
+$theme-colors: (
+	"primary":    $primary,
+	"secondary":  $secondary,
+	"success":    $success,
+	"info":       $info,
+	"warning":    $warning,
+	"danger":     $danger,
+	"light":      $light,
+	"dark":       $dark
+);
+
+@import '~bootstrap/scss/bootstrap.scss';
